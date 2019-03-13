@@ -19,8 +19,8 @@ function submitIt() {
 function pressIt() {
   $('input').on('keydown', function(g) {
       alert('You pressed the G key.');
-  }
-);
+    }
+  );
 }
 
 $(document).ready(function(){
