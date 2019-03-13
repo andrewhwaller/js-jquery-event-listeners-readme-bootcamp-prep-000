@@ -17,10 +17,11 @@ function submitIt() {
 }
 
 function pressIt() {
-  $('input').on('keydown', function(g) {
-      alert('You pressed the G key.');
+  $('input').on('keydown', function(key) {
+    if(key.which == 71){
+        alert('g was pressed');
     }
-  );
+  });
 }
 
 $(document).ready(function(){
