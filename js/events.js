@@ -18,8 +18,7 @@ function submitIt() {
 
 function pressIt() {
   $('input').on('keydown', function(g) {
-  if(key.which == 83){
-      alert('s was pressed');
+      alert('You pressed the G key.);
   }
 });
 }
