@@ -16,6 +16,14 @@ function submitIt() {
   });
 }
 
+function pressIt() {
+  $('input').on('keydown', function(g) {
+  if(key.which == 83){
+      alert('s was pressed');
+  }
+});
+}
+
 $(document).ready(function(){
 
 // call functions here
